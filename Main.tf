@@ -7,9 +7,6 @@ variable "machine" {
 type = string
 default = "f1-micro"
 }
-variable "project" {
-type = string
-}
 
 resource "google_compute_instance" "myvm01" {
 name = "myfirstvm"
